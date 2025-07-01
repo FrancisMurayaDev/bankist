@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bankist Bank</title>
-    <link rel="stylesheet" href="./styles.css" type="image/ x-icon" />
+    <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +15,28 @@
   </head>
   <body>
     <!-- Top Navigation -->
+
+    <nav class="nav">
+      <p class="welcome">log in to get started</p>
+      <img src="./img/logo.png" alt="logo" class="logo" />
+
+      <form class="login">
+        <input
+          type="text"
+          placeholder="user"
+          class="login__input login__input--user"
+        />
+
+        <input
+          type="password"
+          placeholder="PIN"
+          class="login__input login__input--pin"
+          maxlength="4"
+        />
+
+        <button class="login_button">&rarr;</button>
+      </form>
+    </nav>
 
     <!-- End of top Navigation -->
     <script src="./script.js"></script>
